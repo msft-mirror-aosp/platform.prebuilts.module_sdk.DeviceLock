@@ -41,3 +41,7 @@ Landroid/devicelock/ILockUnlockDeviceCallback$Default;->asBinder()Landroid/os/IB
 Landroid/devicelock/ILockUnlockDeviceCallback$Stub$Proxy;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/devicelock/ILockUnlockDeviceCallback$Stub;->asBinder()Landroid/os/IBinder;,public-api,system-api,test-api
 Landroid/devicelock/ILockUnlockDeviceCallback$Stub;->onTransact(ILandroid/os/Parcel;Landroid/os/Parcel;I)Z,public-api,system-api,test-api
+Landroid/devicelock/ParcelableException$1;->createFromParcel(Landroid/os/Parcel;)Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/devicelock/ParcelableException$1;->newArray(I)[Ljava/lang/Object;,public-api,system-api,test-api
+Landroid/devicelock/ParcelableException;->describeContents()I,public-api,system-api,test-api
+Landroid/devicelock/ParcelableException;->writeToParcel(Landroid/os/Parcel;I)V,public-api,system-api,test-api
