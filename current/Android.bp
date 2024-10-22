@@ -49,7 +49,10 @@ java_sdk_library_import {
     apex_available: ["com.android.devicelock"],
     licenses: ["devicelock-module-sdk_Android-Apache-2.0"],
     shared_library: false,
-    permitted_packages: ["android.devicelock"],
+    permitted_packages: [
+        "android.devicelock",
+        "com.android.devicelock.flags",
+    ],
     public: {
         jars: ["sdk_library/public/framework-devicelock-stubs.jar"],
         stub_srcs: ["sdk_library/public/framework-devicelock.srcjar"],
