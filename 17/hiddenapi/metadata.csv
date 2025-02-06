@@ -1,0 +1,5 @@
+signature
+|Lcom/android/devicelock/flags/CustomFeatureFlags;->clearDeviceRestrictions()Z|
+|Lcom/android/devicelock/flags/FeatureFlags;->clearDeviceRestrictions()Z|
+|Lcom/android/devicelock/flags/FeatureFlagsImpl;->clearDeviceRestrictions()Z|
+|Lcom/android/devicelock/flags/Flags;->clearDeviceRestrictions()Z|
